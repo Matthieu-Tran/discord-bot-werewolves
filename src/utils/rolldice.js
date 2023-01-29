@@ -1,0 +1,2 @@
+const rollDice = () => Math.floor(Math.random() * 100) +1; /// Math.random nous donne un chiffre entre 0 et 1 ducoup on multiplie par 6 et enfin on le converti en entier. +1 car ca nous donne un chiffre entre 0 et 5 or on veut un chiffre netre 0 et 6
+module.exports = { rollDice };
